@@ -1,3 +1,3 @@
 namespace: ''
 properties:
-  - hostname: ''
+  - hostname: '123'
