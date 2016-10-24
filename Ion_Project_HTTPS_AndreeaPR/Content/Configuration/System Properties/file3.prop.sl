@@ -1,7 +1,4 @@
 namespace: ''
 properties:
-  - SysProp4: ''
-  - SysProp5: ''
-  - SysProp6: ''
-  - SysProp7: ''
+  - SysProp7: '30'
   - SysProp8: ''
