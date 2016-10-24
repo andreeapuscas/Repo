@@ -1,3 +1,3 @@
 namespace: ''
 properties:
-  - SysProp6: sa
+  - hostname: sa
