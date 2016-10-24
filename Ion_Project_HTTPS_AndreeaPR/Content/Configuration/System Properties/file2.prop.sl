@@ -5,3 +5,5 @@ properties:
   - SysProp8: ''
   - SysProp4: ''
   - SysProp5: ''
+  - SysProp9: '456'
+  - SysProp10: '752'

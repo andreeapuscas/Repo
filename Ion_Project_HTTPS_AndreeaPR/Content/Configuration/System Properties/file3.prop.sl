@@ -1,5 +1,4 @@
 namespace: ''
 properties:
-  - SysProp6: '10'
-  - SysProp9: '456'
-  - SysProp10: '752'
+  - SysProp6: '123467890'
+
