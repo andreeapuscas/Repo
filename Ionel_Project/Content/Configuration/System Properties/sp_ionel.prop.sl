@@ -1,3 +1,2 @@
 namespace: ''
-properties:
-  - hostname: ''
+properties: []
