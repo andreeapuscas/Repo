@@ -39,6 +39,10 @@ extensions:
             targetId: 05ca75c1-29b9-ff5b-edd4-462928c79d25
             port: FAILURE
     results:
+      FAILURE:
+        02b21e9e-c05b-8c84-832a-a2e909feca33:
+          x: 360
+          y: 520
       SUCCESS:
         c021add3-3f14-46a3-acdc-81e20114cdbb:
           x: 835
@@ -47,7 +51,6 @@ extensions:
         05ca75c1-29b9-ff5b-edd4-462928c79d25:
           x: 557
           y: 462
-      FAILURE:
-        02b21e9e-c05b-8c84-832a-a2e909feca33:
-          x: 360
-          y: 520
+        017e05a3-30d0-f195-ad34-1b5fde1bd1fb:
+          x: 1000
+          y: 390
