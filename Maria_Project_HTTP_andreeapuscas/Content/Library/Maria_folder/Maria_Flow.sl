@@ -13,9 +13,15 @@ flow:
           - FAILURE: on_failure
   results:
     - FAILURE
+    - SUCCESS
 extensions:
   graph:
     steps:
       sleep:
         x: 302
         y: 61
+    results:
+      SUCCESS:
+        f498c342-4a24-924b-3963-16653688fa69:
+          x: 43
+          y: 92
