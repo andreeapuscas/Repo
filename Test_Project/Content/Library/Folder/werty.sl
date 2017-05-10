@@ -31,29 +31,29 @@ extensions:
         x: 100
         y: 250
         navigate:
-          03b11df3-4de3-d79f-9202-b07515e16493:
-            targetId: aaca8509-6949-6818-a463-ee328e6b6ba2
+          d7baade5-03f4-bdfc-7382-e52bc96e8e96:
+            targetId: 1b92f09c-e2d6-642c-1019-6b4c2809e445
             port: FAILURE
       ssh_command:
         x: 400
         y: 375
         navigate:
-          c1a00972-5ed1-0d3e-f2ad-f564142ddcb1:
-            targetId: cb794bbf-1384-b74f-a0a3-a8bb306c91ce
+          c9b6afe8-8c33-618a-9256-39827415057a:
+            targetId: a49b3b53-e42f-2cf1-5602-c5a5ce32af79
             port: FAILURE
-          6c317ae6-410f-6348-3961-da1bdf7270b2:
-            targetId: d27d24df-ae67-92c3-d319-2ea7743dc544
+          71d0d09e-6e26-221b-8044-711a5dac5ae4:
+            targetId: 03a65ab2-e299-029c-2868-67f5e0cad495
             port: SUCCESS
     results:
       FAILURE:
-        aaca8509-6949-6818-a463-ee328e6b6ba2:
+        1b92f09c-e2d6-642c-1019-6b4c2809e445:
           x: 400
           y: 125
       CUSTOM:
-        cb794bbf-1384-b74f-a0a3-a8bb306c91ce:
+        a49b3b53-e42f-2cf1-5602-c5a5ce32af79:
           x: 700
           y: 125
       SUCCESS:
-        d27d24df-ae67-92c3-d319-2ea7743dc544:
+        03a65ab2-e299-029c-2868-67f5e0cad495:
           x: 700
           y: 375
