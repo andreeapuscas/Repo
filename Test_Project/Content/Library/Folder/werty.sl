@@ -4,13 +4,19 @@ flow:
   workflow:
     - ssh_flow:
         do:
-          io.cloudslang.base.ssh.ssh_flow: []
+          io.cloudslang.base.ssh.ssh_flow:
+            - host: "${get_sp('hostname')}"
+            - command: '4516'
+            - username: '54'
         navigate:
           - FAILURE: FAILURE
           - SUCCESS: ssh_command
     - ssh_command:
         do:
-          io.cloudslang.base.ssh.ssh_command: []
+          io.cloudslang.base.ssh.ssh_command:
+            - host: "${get_sp('HostName1')}"
+            - command: "${get_sp('HostName1')}"
+            - username: '${command}'
         navigate:
           - FAILURE: CUSTOM
           - SUCCESS: SUCCESS
@@ -22,35 +28,32 @@ extensions:
   graph:
     steps:
       ssh_flow:
-        x: 241
-        y: 295
+        x: 100
+        y: 250
         navigate:
-          77885e4c-909d-7367-d35f-4eec4b34c61d:
-            targetId: 02b21e9e-c05b-8c84-832a-a2e909feca33
+          03b11df3-4de3-d79f-9202-b07515e16493:
+            targetId: aaca8509-6949-6818-a463-ee328e6b6ba2
             port: FAILURE
       ssh_command:
-        x: 496
-        y: 283
+        x: 400
+        y: 375
         navigate:
-          f6c93e34-d11e-179f-a206-c18ad3d6cff8:
-            targetId: c021add3-3f14-46a3-acdc-81e20114cdbb
-            port: SUCCESS
-          6b630daf-47ba-8cf4-26cc-e9e63740eb56:
-            targetId: 05ca75c1-29b9-ff5b-edd4-462928c79d25
+          c1a00972-5ed1-0d3e-f2ad-f564142ddcb1:
+            targetId: cb794bbf-1384-b74f-a0a3-a8bb306c91ce
             port: FAILURE
+          6c317ae6-410f-6348-3961-da1bdf7270b2:
+            targetId: d27d24df-ae67-92c3-d319-2ea7743dc544
+            port: SUCCESS
     results:
       FAILURE:
-        02b21e9e-c05b-8c84-832a-a2e909feca33:
-          x: 360
-          y: 520
-      SUCCESS:
-        c021add3-3f14-46a3-acdc-81e20114cdbb:
-          x: 835
-          y: 193
+        aaca8509-6949-6818-a463-ee328e6b6ba2:
+          x: 400
+          y: 125
       CUSTOM:
-        05ca75c1-29b9-ff5b-edd4-462928c79d25:
-          x: 557
-          y: 462
-        017e05a3-30d0-f195-ad34-1b5fde1bd1fb:
-          x: 1000
-          y: 390
+        cb794bbf-1384-b74f-a0a3-a8bb306c91ce:
+          x: 700
+          y: 125
+      SUCCESS:
+        d27d24df-ae67-92c3-d319-2ea7743dc544:
+          x: 700
+          y: 375
